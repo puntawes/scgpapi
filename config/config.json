@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "pkgscgpweb@pkgscgpweb57",
+    "password": "pkgP@ssw0rd",
+    "database": "we_scg",
+    "host": "pkgscgpweb57.mysql.database.azure.com",
+    "dialect": "mysql",
+    "port":"3306",
+    "ssl": {
+      "rejectUnauthorized": true,
+      "ca": "serverCa"
+    }
+  },
+
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
